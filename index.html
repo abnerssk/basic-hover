@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Hover</title>
+    <style>
+        body{
+            height: 97vh;
+            width: 98vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #quadrado{
+            width: 20%;
+            height: 40%;
+            background-color: rgb(0, 97, 129);
+            color: white;
+            font-size: 15px;
+            border-radius: 12px;
+            text-align: center;
+            font-family: sans-serif;
+            box-shadow: 4px 4px black;
+        }
+        #quadrado h2{
+            margin: auto;
+            margin-top: 40%;
+        }
+        #quadrado:hover{
+            background-color: orange;
+            color: black;
+            scale: 1.2;
+        }
+    </style>
+</head>
+<body>
+    <div id="quadrado">
+        <h2>Passe o Mouse aqui</h2>
+    </div>
+</body>
+</html>
